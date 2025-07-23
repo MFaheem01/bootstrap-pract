@@ -1,0 +1,42 @@
+/* .table{
+    text-align: center;
+    margin-top: 60px;
+}
+.container{
+    text-align: center;
+} */
+.conta {
+    /* margin: auto; */
+    text-align: center;
+}
+
+.content {
+    text-align: center;
+}
+
+.btn-group {
+    text-align: center;
+    align-content: center;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+.badge {
+    background-color: black;
+    text-align: center;
+}
+
+.bad {
+    text-align: center;
+}
+
+span .spinner-border {
+    gap: 10px;
+    padding: 10px;
+}
+
+.list-group-item a{
+    text-decoration: none;
+    color: gray;
+}

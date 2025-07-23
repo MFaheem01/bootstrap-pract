@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bootstrap viewport</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body class="bg-light">
+    <div class="text-uppercase">
+        <div class="container mt-3">
+            <h2>basic table</h2>
+            <p>The .table class adds basic styling (light padding and horizontal dividers) to a table:</p>
+        </div>
+        <table class="table table-hover">
+            <thead>
+                <tr class="table-primary">
+                    <th>First name</th>
+                    <th>Last name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="table-info">
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>John@example.com</td>
+                </tr>
+                <tr class="table-danger">
+                    <td>july</td>
+                    <td>muly</td>
+                    <td>John@example.com</td>
+                </tr>
+                <tr class="table-warning">
+                    <td>july</td>
+                    <td>doley</td>
+                    <td>John@example.com</td>
+                </tr>
+                <tr class="table-dark">
+                    <td>july</td>
+                    <td>doley</td>
+                    <td>John@example.com</td>
+                </tr>
+                <tr class="table-success">
+                    <td>july</td>
+                    <td>doley</td>
+                    <td>John@example.com</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="d-flex">
+        <div class="container mt-3">
+            <img src="download.jpeg" class="rounded" alt="">
+        </div>
+        <div class="container mt-3">
+            <img src="download.jpeg" class="rounded-circle" alt="">
+        </div>
+        <div class="container mt-3">
+            <img src="download.jpeg" class="img-thumbnail" alt="">
+        </div>
+    </div>
+    <div class="containe mt-3">
+        <div class="content">
+            <h2>alerts</h2>
+            <p class="bg-primary">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Possimus, culpa?
+            </p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing. culpa?
+            </p>
+        </div>
+        <div class="alert alert-success alert-dismissible fade-show">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>success!</strong>This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-info alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>success!</strong>This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-warning alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>success!</strong>This alert box could indicate a successful or positive action.
+        </div>
+        <div class="alert alert-danger alert-dismissible">
+            <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            <strong>success!</strong>This alert box could indicate a successful or positive action.
+        </div>
+    </div>
+    <div class="conta mt-3">
+        <button type="button" class="btn btn-info mx-auto">READ MORE</button>
+    </div>
+    <div class="btn-group btn-group-lg m-3">
+        <button type="button" class="btn btn-primary">apple</button>
+        <button type="button" class="btn btn-info">red</button>
+        <button type="button" class="btn btn-danger">car</button>
+    </div>
+    <div class="btn-group btn-group-verticle m-3">
+        <button type="button" class="btn btn-primary">apple</button>
+        <button type="button" class="btn btn-info">red</button>
+        <div class="btn-group">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">car</button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">tablet</a>
+                <a class="dropdown-item" href="#">smartphone</a>
+            </div>
+        </div>
+    </div>
+    <div class="bad">
+        <h2><span class="badge">Faheem</span></h2>
+    </div>
+    <div class="spinner-border text-danger"></div>
+    <div class="spinner-grow text-info"></div>
+    <button type="button" class="btn btn-danger"><span
+            class="spinner-border spinner-border-sm"></span>loading..</button>
+
+    <ul class="pagination mt-3 justify-content-center">
+
+        <li class="page-item active"><a class="page-link" href="https://youtu.be/caqjJUjMqoU?list=RDcaqjJUjMqoU"
+                target="_blank">previous</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">1</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">2</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">3</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">next</a></li>
+
+    </ul>
+    <ul class="pagination pagination-lg mt-3 justify-content-center">
+
+        <li class="page-item disabled"><a class="page-link" href="https://youtu.be/caqjJUjMqoU?list=RDcaqjJUjMqoU"
+                target="_blank">previous</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">1</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">2</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">3</a></li>
+        <li class="page-item"><a class="page-link" href="#" target="_blank">next</a></li>
+
+    </ul>
+
+    <ul class="list-group">
+        <li class="list-group-item bg-dark"><a
+                href="https://www.youtube.com/watch?v=BSJa1UytM8w&list=RDBSJa1UytM8w&start_radio=1&pp=ygUGc2FpeWFyoAcB"
+                target="_blank">First
+                item</a></li>
+        <li class="list-group-item"><a href="#">second item</a></li>
+        <li class="list-group-item"><a href="#">third item</a></li>
+    </ul>
+    <div class="list-group mt-4">
+        <a class="list-group-item list-group-item-action"
+            href="https://www.youtube.com/watch?v=BSJa1UytM8w&list=RDBSJa1UytM8w&start_radio=1&pp=ygUGc2FpeWFyoAcB">first
+            link</a>
+        <a class="list-group-item list-group-item-action" href="#"> second link</a>
+        <a class="list-group-item list-group-item-action" href="#">third-link</a>
+    </div>
+    <div class="card m-3">
+        <img class="card-img-top" src="download2.jpeg" alt="..." style="width: 30%;">
+        <div class="card-img-overlay m-3" style="color: white;">
+            <h2 class="card-title">card title</h2>
+            <p class="card-body" style="width: 30%;">Lorem ipsum dolor sit amet consectetur adipisicing
+                elit. Atque, unde.</p>
+        </div>
+    </div>
+
+    <div class="senior" style="height: 20vh;">
+
+        <div class="dropdown">
+            <button type="button" class="btn btn-danger dropdown-toggle" data-bs-toggle="dropdown">dropdown</button>
+            <ul class="dropdown-menu">
+
+                <li>
+                    <h5 class="dropdown-header">dropdown header 1</h5>
+                </li>
+                <li><a class="dropdown-item" href="#">link1</a></li>
+                <li><a class="dropdown-item" href="#">link2</a></li>
+                <li><a class="dropdown-item" href="#">link3</a></li>
+                <li>
+                    <h5 class="dropdown-header">dropdown header 1</h5>
+                </li>
+                <li><a class="dropdown-item" href="#">another ink</a></li>
+            </ul>
+
+        </div>
+    </div>
+    <!-- The slideshow/carousel -->
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="OIP.jpeg" alt="Los Angeles" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3>Los Angeles</h3>
+                <p>We had such a great time in LA!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="OIP (1).jpeg" alt="Chicago" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3>Chicago</h3>
+                <p>Thank you, Chicago!</p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="OIP (2).jpeg" alt="New York" class="d-block" style="width:100%">
+            <div class="carousel-caption">
+                <h3>New York</h3>
+                <p>We love the Big Apple!</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Left and right controls/icons -->
+    <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+        <span class="carousel-control-next-icon"></span>
+    </button>
+    </div>
+
+    <div class="container-fluid mt-3">
+        <h3>Carousel Example</h3>
+        <p>The following example shows how to create a basic carousel with indicators and controls.</p>
+    </div>
+
+</body>
+
+</html>
